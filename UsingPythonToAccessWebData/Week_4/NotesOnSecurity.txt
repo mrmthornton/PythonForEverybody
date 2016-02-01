@@ -1,0 +1,12 @@
+Note: If you get an error when you run your program that complains about CERTIFICATE_VERIFY_FAILED when you call urlopen(), make the following changes to your program:
+
+import urllib
+import json
+import ssl
+
+...
+
+    print 'Retrieving', url
+    scontext = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
+    uh = urllib.urlopen(url, context=scontext)
+    data = uh.read()

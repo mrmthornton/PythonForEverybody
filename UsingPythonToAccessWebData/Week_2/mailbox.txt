@@ -1,0 +1,10 @@
+this is a mailbox
+i get mail 
+From: lotsOfPeople@lotsOfDomains.big.net  #### ignore this part of line ####
+Subject: lotsOfStuff
+
+Here is the body of the e-mail
+This line contains From: and is not at the begining
+this line contains numbers 0, 1, 10 and 1111111
+
+From: someone with a colon : in thier name
