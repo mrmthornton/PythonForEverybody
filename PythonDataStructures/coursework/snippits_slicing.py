@@ -4,13 +4,6 @@ Created on Jan 18, 2016
 @author: mike
 '''
 
-
-
-
-
-
-
-
 if __name__ == '__main__':
     #pass
     
