@@ -13,4 +13,11 @@ temp = list()
 for k,v in aDict.items():
     temp.append( (v, k) )
 temp.sort(reverse=True)
-print temp
+print temp[:3]
+
+# using list comprehesion
+print sorted([(v,k) for k,v in aDict.items()], reverse=True)[:3]
+
+
+testTuple = (1,3,'a')
+print testTuple[1]
